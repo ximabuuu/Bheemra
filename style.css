@@ -107,9 +107,12 @@ button{
 }
 
 .heroProduct {
-    border-radius: 10px;
+    border-radius: 20px;
     width: 500px;
     height: 500px;
+}
+.carousel {
+    padding-left: 1em;
 }
 
 .s2_details {
@@ -132,12 +135,13 @@ button{
 
 .section1_prdt {
     display: flex;
-    gap: 1rem;
 }
 
 .price {
     flex-direction: column;
     padding-top: 10em;
+    margin-left: 50px;
+    width: 200px;
 }
 
 .price p{
@@ -148,6 +152,10 @@ button{
 .s1ProductDetails,
 .s2_detailsp {
     text-align: justify;
+}
+
+.s2_details{
+    margin-right: 10px;
 }
 
 .btnPrice,
@@ -173,6 +181,24 @@ button{
 }
 .section3_d1 button{
     color: white;
+    transition: 0.3s;
+}
+
+.section3_d1 h3{
+    color: white;
+    font-family: Arial;
+    font-style: italic;
+}
+
+.section3_d1 .ululu{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    opacity: 0.8;
+    box-shadow: 10px 10px rgb(79, 79, 79);
+}
+.section3_d1 button:hover{
+    background-color: white;
+    color: rgb(38, 38, 39);
 }
 .btnPrice button{
     color: white;
@@ -194,6 +220,7 @@ button{
     display: flex;
     width: 30%;
 }
+
 .carousel-btn {
     padding: 10px 20px;
     cursor: pointer;
@@ -208,4 +235,138 @@ button{
 .section1_prdt img{
     height: 100;
     width: 100;
+}
+
+.carousel img{
+    box-shadow: 10px 10px rgb(56, 56, 56);
+    
+}
+
+html{
+    overflow-x: hidden;
+}
+
+/**Products**/
+
+
+/**footer*/
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+}
+
+footer .foot{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+footer .foot .sec h2{
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer .foot .sec p{
+    color: rgb(225, 225, 225);
+}
+
+footer .foot .sci{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+}
+
+footer .foot .sci li{
+    list-style: none;
+}
+
+footer .foot .sci li a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+footer .foot .sci li a #fb{
+    color: white;
+}
+
+footer .foot .sci li a #fb:hover{
+    color: rgb(69, 69, 238);
+}
+footer .foot .sci li a #ig:hover{
+    color: rgb(246, 51, 77);
+}
+footer .foot .sci li a #twi:hover{
+    color: black;
+}
+footer .foot .sci li a #yt:hover{
+    color: red;
+}
+
+footer .foot .quicklinks ul li{
+    list-style: none;
+}
+
+footer .foot .quicklinks ul li a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: rgb(225, 225, 225);
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+footer .foot .quicklinks ul li a:hover{
+    color: rgb(0, 0, 0);
+    
+}
+
+footer .foot .contact .info{
+    position: relative;
+}
+
+footer .foot .contact .info li{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 16px;
+}
+
+footer .foot .contact .info li span{
+    color: rgb(225, 225, 225);
+    font-size: 20px;
+}
+
+footer .foot .contact .info li a{
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+}
+
+.copyright{
+    width: 100%;
+    display: gr;
+    padding: 20px 100px 30px;
+    text-align: center;
+    color: rgb(38, 38, 39);
+    
+
+}
+.main1 .section1_prdt .price .btnPrice button{
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.main1 .section1_prdt .price .btnPrice button:hover{
+    background-color: rgb(225, 225, 225);
+    color: rgb(38, 38, 39);
 }
