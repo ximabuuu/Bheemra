@@ -24,8 +24,9 @@ footer {
 }
 
 nav {
-    padding: 1em;
+    padding: 0.2em;
     width: 100%;
+    position: sticky;
 }
 
 .nav_ul {
@@ -41,6 +42,9 @@ nav li{
 nav a{
     text-decoration: none;
     color: rgb(249, 244, 244);
+}
+nav a img{
+    
 }
 
 #search {
@@ -71,7 +75,7 @@ button{
 .nav_li8,
 button{
     background-color: rgb(38, 38, 39);
-    border: 3px solid rgb(38, 38, 39);
+    border: 1px solid rgb(38, 38, 39);
     border-radius: 5px;
     padding: 6px 14px;
 }
@@ -79,4 +83,129 @@ button{
 .nav_li7 a,
 .nav_li8 a {
     color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0;
+}
+
+.main1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.section2 {
+    width: -70%;
+    gap: 4rem;
+}
+
+.heroProduct {
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+.s2_details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: large;
+    margin: 0;
+
+}
+
+.section1 {
+    gap: 3rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+}
+
+.section1_prdt {
+    display: flex;
+    gap: 1rem;
+}
+
+.price {
+    flex-direction: column;
+    padding-top: 10em;
+}
+
+.price p{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.s1ProductDetails,
+.s2_detailsp {
+    text-align: justify;
+}
+
+.btnPrice,
+.price {
+    display: flex;
+    gap: 1rem;
+}
+
+.section3 {
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.section3_d1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.carousel-controls .carousel-btn{
+    color: white;
+}
+.section3_d1 button{
+    color: white;
+}
+.btnPrice button{
+    color: white;
+}
+
+.carousel {
+    position: relative;
+    text-align: center;
+}
+.heroProduct {
+    object-fit: cover;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 30%;
+}
+.carousel-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: 0.3 ease-out;
+}
+.price p{
+    font-size: ;
+}
+
+.section1_prdt img{
+    height: 100;
+    width: 100;
 }
