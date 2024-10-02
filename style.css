@@ -26,7 +26,10 @@ footer {
 nav {
     padding: 0.2em;
     width: 100%;
+}
+.nav {
     position: sticky;
+    top: 0;
 }
 
 .nav_ul {
@@ -34,6 +37,13 @@ nav {
     align-items: center;
     justify-content: space-around;
     
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
 }
 nav li{
     list-style: none;
@@ -79,6 +89,7 @@ button{
     border-radius: 5px;
     padding: 6px 14px;
 }
+
 
 .nav_li7 a,
 .nav_li8 a {
@@ -219,6 +230,9 @@ button{
     transform: translate(-50%, -50%);
     display: flex;
     width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
 }
 
 .carousel-btn {
@@ -248,6 +262,99 @@ html{
 
 /**Products**/
 
+.products h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+.products h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.ecard{
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(79, 79, 79, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s ease;
+    margin: 10px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+
+.product-image{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.product-title{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: black;
+}
+.product-description{
+    font-size: 0.9rem;
+    color: rgb(38, 38, 39);
+}
+.product-price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(38, 38, 39);
+    margin-bottom: 20px;
+}
+.buy-button{
+    background-color: rgb(38, 38, 39);
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.buy-button:hover{
+    background-color: white;
+    color: rgb(38, 38, 39);
+}
+
+.viewmore{
+    text-align: center;
+    margin: 20px;
+}
+.viewmore a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 38, 39);
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.viewmore a:hover{
+    color: rgb(38, 38, 39);
+    background-color: white;
+}
+
+.viewmore a:hover{
+    color: rgb(38, 38, 39);
+}
+
+.ecard1{
+    display: flex;
+    margin-left: 115px;
+    justify-content: center;
+}
 
 /**footer*/
 
