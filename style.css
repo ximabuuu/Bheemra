@@ -287,9 +287,13 @@ html{
     transition: 0.3s ease;
     margin: 10px;
 }
+.card {
+    height: 450px;
+}
 .card:hover{
     transform: scale(1.05);
 }
+
 
 .product-image{
     width: 100%;
@@ -298,7 +302,7 @@ html{
     margin-bottom: 15px;
 }
 .product-title{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
     color: black;
 }
@@ -476,4 +480,236 @@ footer .foot .contact .info li a{
 .main1 .section1_prdt .price .btnPrice button:hover{
     background-color: rgb(225, 225, 225);
     color: rgb(38, 38, 39);
+}
+
+
+/**contact**/
+
+.contact-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+
+.form{
+    background-color: rgb(79, 79, 79);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.ctitle h2{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.ctitle hr{
+    border: none;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgb(56, 56, 56);
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: rgb(79, 79, 79);
+    border-radius: 50px;
+    box-shadow: 5px solid rgb(79, 79, 79);
+}
+
+.contact-input{
+    height: 150px;
+    padding-top: 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(56, 56, 56);
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: rgb(79, 79, 79);
+    width: 400px;
+    box-shadow: 5px solid rgb(79, 79, 79);
+}
+
+.contact-input:focus,
+.contact-inputs:focus{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.contact button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    gap: 10px;
+    border: 1px solid rgb(38, 38, 39);
+    border-radius: 50px;
+}
+
+.contact button:hover{
+    color: rgb(38, 38, 39);
+    background-color: white;
+}
+
+.icons{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+
+.icons .icons1{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(79, 79, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color: white;
+}
+
+.icons .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.icons .text h3{
+    font-weight: 500;
+}
+
+/**about us**/
+
+.about{
+    padding: 70px 0;
+    width: 100%;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.about1{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about1 img{
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.about-text h1{
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    font-size: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.about-text span{
+    color: rgb(56, 56, 56);
+}
+
+.about-text p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.abouts{
+    background: black;
+}
+
+.abouts .about-text h1{
+    font-size: 50px;
+}
+
+.abouts .about-text h1,
+.abouts .about-text h5,
+.abouts .about-text p {
+    color: white;
+}
+
+.section3_d2 img{
+    border-radius: 20px;
+}
+
+.location{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.location h2{
+    align-items: center;
+    justify-content: center;
+    padding-left: 39.4%;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.about1 iframe{
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.about1 .sci {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    font-size: 40px;
+}
+
+.about1 .sci a{
+    color: rgb(56, 56, 56);
+    transition: 0.3s ease;
+}
+
+.about1 .sci li a #fb:hover{
+    color: rgb(69, 69, 238);
+    transform: scale(1.05);
+}
+
+.about1 .sci li a #ig:hover{
+    color: rgb(246, 51, 77);
+    transform: scale(1.05);
+}
+
+.about1 .sci li a #twi:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+
+.about1 .sci li a #yt:hover{
+    color: red;
+    transform: scale(1.05);
 }
