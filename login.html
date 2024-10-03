@@ -1,11 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Smoky Perfumes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/20240804_125726.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    
+
+    <!--nav bar-->
+    <header>
+        <nav class="nav">
+            <ul class="nav_ul">
+                <li class="nav_li1">
+                    <a href="/" class="nav-link">
+                        <img src="/images/logo.png" alt="NavLogo" class="navlogo" height="100">
+                    </a>
+                </li>
+                <li class="nav_li2"><a href="./index.html">Home</a></li>
+                <li class="nav_li3"><a href="./product.html">Products</a></li>
+                <li class="nav_li4"><a href="./about.html">About</a></li>
+                <li class="nav_li5"><a href="./contact.html">Contact Us</a></li>
+                <li class="nav_li6"><img src="./images/search.png" class="search" alt="search" height="22">
+                    <input type="text" name="search" id="search">
+                </li>
+                <li class="nav_li7">
+                    <a href="signup.html">Sign Up</a>
+                </li>
+                <li class="nav_li8">
+                    <a href="./login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!--contact-->
+
+    <div class="contact-container">
+        <div class="form">
+            <form action="" class="contact">
+                <div class="ctitle">
+                    <h2>Login</h2>
+                    <hr>
+                </div>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <input type="password" name="password" placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="contact-inputs" required>
+                <div class="gu">
+                    <div class="rem">
+                        <input type="checkbox" name="" id=""> <p>Remember Me</p>
+                    </div>
+                    <div class="pass">
+                        <a href="#">Forget Password?</a>
+                    </div>
+                </div>
+                <button type="submit">Login <i class="fa-solid fa-right-to-bracket"></i></button>
+                <p>Don't have an account?<a href="./signup.html">Sign Up</a></p>
+            </form>
+        </div>
+
+        
+
+       
+    </div>
+
+    <!--Footer-->
+
+    <footer>
+        <div class="foot">
+            <div class="sec aboutus">
+                <h2>About US</h2>
+                <p>Smoky Perfumes is Nepal's leading online perfume brand, offering a wide range of premium fragrances.
+                    We specialize in crafting unique, high-quality scents that cater to every taste, delivering luxury
+                    and sophistication right to your doorstep.</p>
+                <ul class="sci">
+                    <li><a href="https://www.facebook.com/profile.php?id=61566564574556"><i class="fa-brands fa-facebook" id="fb"></i></a></li>
+                    <li><a href="https://www.instagram.com/smoky.perfumes/?utm_source=ig_web_button_share_sheet"><i
+                                class="fa-brands fa-instagram" id="ig"></i></a></li>
+                    <li><a href="https://x.com/smokyperfumes?s=09"><i class="fa-brands fa-x-twitter" id="twi"></i></a></li>
+                    <li><a href="https://www.youtube.com/@ximabu69"><i class="fa-brands fa-youtube" id="yt"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Support</h2>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Products</h2>
+                <ul>
+                    <li><a href="#">Unisex <i class="fa-solid fa-spray-can-sparkles"></i></a></li>
+                    <li><a href="#">Mens <i class="fa-solid fa-spray-can-sparkles"></i></a></li>
+                    <li><a href="#">Womens <i class="fa-solid fa-spray-can-sparkles"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec contact">
+                <h2>Contact Us</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <p><a href="tel:+977 9841123463">+977 9841123463</a></p>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                        <p><a href="mailto:smokyp69@gmail.com">smokyp69@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--copyright-->
+
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 Smoky Perfumes. All Rights Reserved.</p>
+    </div>
+
 </body>
+
 </html>

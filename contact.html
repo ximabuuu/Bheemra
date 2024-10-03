@@ -48,12 +48,14 @@
         <div class="form">
             <form action="https://api.web3forms.com/submit" method="POST" class="contact">
                 <div class="ctitle">
-                    <h2>Send Us Message</h2>
+                    <h2>Send us a message</h2>
                     <hr>
                 </div>
                 <input type="hidden" name="access_key" value="fc2fa513-e4c3-4ac2-91d4-5e0ddaae3549">
-                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="text" name="name" placeholder="Full Name" class="contact-inputs" required>
                 <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <input type="number" name="number" placeholder="Your Phone Number" class="contact-inputs" required>
+                <input type="text" name="subject" placeholder="Subject" class="contact-inputs" required>
                 <textarea name="Message" placeholder="Your Message" class="contact-input" required></textarea>
                 <button type="submit">Send <i class="fa-solid fa-envelope"></i></button>
             </form>

@@ -177,7 +177,7 @@ button{
 
 .section3 {
     width: 100vw;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(79, 79, 79);
     margin: 0;
 }
 
@@ -205,7 +205,7 @@ button{
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     opacity: 0.8;
-    box-shadow: 10px 10px rgb(79, 79, 79);
+    box-shadow: 10px 10px rgb(38, 38, 39);
 }
 .section3_d1 button:hover{
     background-color: white;
@@ -568,6 +568,17 @@ footer .foot .contact .info li a{
     background-color: white;
 }
 
+.contact p{
+    color: white;
+}
+.contact a{
+    text-decoration: none;
+    padding-left: 5px;
+    font-size: 16px;
+    color: rgb(45, 131, 237);
+}
+
+
 .icons{
     position: relative;
     padding: 20px 0;
@@ -712,4 +723,15 @@ footer .foot .contact .info li a{
 .about1 .sci li a #yt:hover{
     color: red;
     transform: scale(1.05);
+}
+
+.rem {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.gu{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
 }
