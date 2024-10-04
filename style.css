@@ -257,7 +257,7 @@ button{
 }
 
 .carousel img{
-    box-shadow: 5px 5px rgb(56, 56, 56);
+    box-shadow: 5px 5px 5px rgb(56, 56, 56);
     height: 400px;
     width: 400px;
     border-radius: 15px;
@@ -293,7 +293,7 @@ html{
     text-align: center;
     transition: 0.3s ease;
     margin: 10px;
-    box-shadow: 2.5px 2.5px rgb(79, 79, 79);
+    box-shadow: 2.5px 2.5px 2.5px rgb(79, 79, 79);
 }
 .card img:hover{
     
@@ -762,4 +762,10 @@ footer .foot .contact .info li a{
     display: flex;
     flex-direction: row;
     gap: 6rem;
+}
+
+.about-text .owner{
+    font-size: 10px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
